@@ -8,10 +8,11 @@ void setup()
 {
   size(1000,1000);
 
-  PImage photo  = loadImage("storm1.jpg");
-  photo.resize(1000,1000);
+  //PImage photo  = loadImage("storm1.jpg");
+  //photo.resize(1000,1000);
 
-  background(photo);
+  //background(photo);
+  background(0,0,0);
   strokeWeight(5);
 
 
@@ -39,9 +40,10 @@ startX = 0;
 //startY = 150;
 endX = 100;
 endY = 150;
-PImage photo = loadImage("storm1.jpg");
-photo.resize(1000,1000);
-background(photo);
+//PImage photo = loadImage("storm1.jpg");
+//photo.resize(1000,1000);
+//background(photo);
+background(0,0,0);
 
 
 }
